@@ -1,5 +1,5 @@
 # configure work directory's access grant
-cp /share/000-default.conf etc/apache2/sites-enabled/000-default.conf
+cp /share/000-default.conf /etc/apache2/sites-enabled/000-default.conf
 
 # replace apt sources
 cp /share/sources.list /etc/apt/sources.list
